@@ -9,7 +9,9 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: hsl(0, 0%, 100%);
+  background: url(images/bg-pattern-top-desktop.svg) no-repeat, url(images/bg-pattern-bottom-desktop.svg) no-repeat;
+  background-position: top left, bottom right;
+  background-size: 50% auto, 70% auto;
   width: 100vw;
   height: 100vh;
 }
